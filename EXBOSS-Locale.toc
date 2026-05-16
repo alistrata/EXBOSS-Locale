@@ -1,0 +1,19 @@
+## Interface: 120005,120001
+## Title: EXBoss Locale
+## Notes: EXBoss localization strings (zhCN / enUS + stubs)
+## Author: Exwind
+## Version: 1.0.0
+## Dependencies: EXBoss
+
+zhCN.lua
+enUS.lua
+zhTW.lua
+koKR.lua
+ruRU.lua
+deDE.lua
+frFR.lua
+esES.lua
+esMX.lua
+ptBR.lua
+itIT.lua
+DynamicTextMap.lua
