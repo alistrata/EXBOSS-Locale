@@ -1,62 +1,59 @@
 # EXBOSS-Locale
 
-[EXBoss](https://github.com/Ex-wind) 插件的本地化文件仓库，包含 zhCN / zhTW / enUS 及其他语言占位文件。
+Localization files for the [EXBoss](https://github.com/Ex-wind) World of Warcraft addon.  
+Covers zhCN, zhTW, enUS, and placeholder files for other supported locales.
 
 ---
 
-## 参与翻译 / How to Contribute
+## How to Contribute
 
-### 方式一：提交 Pull Request（推荐）
+### Option 1 — Pull Request (preferred)
 
-如果你熟悉 GitHub，欢迎直接 Fork 本仓库，修改对应语言文件后提交 PR。  
-每个语言文件都以 `语言代码.lua` 命名，例如 `enUS.lua`、`deDE.lua`。
-
-格式示例：
+If you are familiar with GitHub, fork this repository, edit the relevant language file, and open a Pull Request.  
+Each file is named after its locale code, e.g. `enUS.lua`, `deDE.lua`, `frFR.lua`.
 
 ```lua
-L["副本"] = "Dungeons"   -- 把右侧改成你的语言
+L["Settings"] = "Einstellungen"   -- replace the right-hand side with your language
 ```
 
-### 方式二：在 Issues 提交内容
+### Option 2 — Submit via Issues
 
-不熟悉 GitHub 也没关系。  
-点击上方 **Issues → New Issue**，把你修改或补充的文本内容粘贴进去，说明是哪个语言即可，作者会手动合并。
+Not comfortable with GitHub? No problem.  
+Open a **New Issue** and paste the translated strings directly into the issue body. Please mention which language you are contributing. The author will merge it manually.
 
-### 方式三：私信联系作者
+### Option 3 — Contact the Author Directly
 
-也可以在以下平台私信联系：
-
-- Bilibili：[@绿色歹人](https://space.bilibili.com/)
-- 直播间留言
+You can also reach out on Bilibili: **@绿色歹人**  
+Leave a comment in the livestream or send a direct message.
 
 ---
 
-## 关于本仓库 / About This Repo
+## About This Repository
 
-由于一些历史原因，**目前只有插件的本地化文件放在公开仓库**，插件的其余功能代码暂不开源。
+Due to historical reasons, **only the localization files are hosted in this public repository**. The rest of the addon's source code remains private for now.
 
-EXBoss 本赛季起步较晚，且一开始没有预料到插件会发展得这么快，留下了一些历史遗留的架构问题。如果你对插件的其他模块代码有疑问，欢迎私聊作者，我们会尽力解答。
+EXBoss launched relatively late this season and grew much faster than anticipated, which left some architectural debt. If you have questions about the addon's internal code, feel free to contact the author directly — we are happy to discuss it.
 
-我们计划在 **12.1 版本进行一次较大的架构重构**，届时会重新整理仓库结构，也会同步考虑更多开源的可能性。感谢你的理解与支持。
-
----
-
-## 文件说明 / Files
-
-| 文件 | 语言 | 状态 |
-|------|------|------|
-| `zhCN.lua` | 简体中文 | ✅ 完整 |
-| `zhTW.lua` | 繁体中文 | ✅ 自动转换自 zhCN |
-| `enUS.lua` | 英文 | ✅ 完整 |
-| `koKR.lua` | 한국어 | 🔤 英文占位，欢迎提交翻译 |
-| `ruRU.lua` | Русский | 🔤 英文占位，欢迎提交翻译 |
-| `deDE.lua` | Deutsch | 🔤 英文占位，欢迎提交翻译 |
-| `frFR.lua` | Français | 🔤 英文占位，欢迎提交翻译 |
-| `esES.lua` | Español (ES) | 🔤 英文占位，欢迎提交翻译 |
-| `esMX.lua` | Español (MX) | 🔤 英文占位，欢迎提交翻译 |
-| `ptBR.lua` | Português | 🔤 英文占位，欢迎提交翻译 |
-| `itIT.lua` | Italiano | 🔤 英文占位，欢迎提交翻译 |
+We are planning a significant architectural refactor in **patch 12.1**, at which point we will reorganize the repository structure and revisit what can be made public. Thank you for your patience and understanding.
 
 ---
 
-*感谢所有参与翻译与测试的朋友。*
+## File Status
+
+| File | Language | Status |
+|------|----------|--------|
+| `zhCN.lua` | Simplified Chinese | ✅ Complete |
+| `zhTW.lua` | Traditional Chinese | ✅ Auto-converted from zhCN |
+| `enUS.lua` | English | ✅ Complete |
+| `koKR.lua` | Korean | 🔤 English placeholder — contributions welcome |
+| `ruRU.lua` | Russian | 🔤 English placeholder — contributions welcome |
+| `deDE.lua` | German | 🔤 English placeholder — contributions welcome |
+| `frFR.lua` | French | 🔤 English placeholder — contributions welcome |
+| `esES.lua` | Spanish (Spain) | 🔤 English placeholder — contributions welcome |
+| `esMX.lua` | Spanish (Mexico) | 🔤 English placeholder — contributions welcome |
+| `ptBR.lua` | Portuguese (Brazil) | 🔤 English placeholder — contributions welcome |
+| `itIT.lua` | Italian | 🔤 English placeholder — contributions welcome |
+
+---
+
+*Thank you to everyone who has contributed translations, testing, and feedback.*
