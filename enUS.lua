@@ -1060,6 +1060,7 @@ L["准备跑圈"] = "Dance"
 L["准备追人"] = "Fixated"
 L["召唤分身"] = "Mirror"
 L["AOE"] = "AOE"
+L["小心脚下"] = "Watch Step"
 -- AUTO-GENERATED VOICE LABELS END
 
 -- auto-added by sync_locale_keys.py
