@@ -1176,3 +1176,7 @@ L["自定义事件"] = "自定义事件"  -- TODO: translate
 L["事件分类"] = "事件分类"  -- TODO: translate
 L["自定义小怪事件"] = "自定义小怪事件"  -- TODO: translate
 L["自定义小怪事件。"] = "自定义小怪事件。"  -- TODO: translate
+
+-- auto-added by sync_locale_keys.py
+L["..."] = "..."  -- TODO: translate
+L["小怪护盾面板"] = "小怪护盾面板"  -- TODO: translate
