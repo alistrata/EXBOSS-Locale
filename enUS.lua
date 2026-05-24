@@ -5,6 +5,24 @@ if not L then
     return
 end
 
+-- added 2026-05-25 14:00
+L["BOSS激活"] = "Boss Active"
+
+-- added 2026-05-25 00:30
+L["导出Lua"] = "Export Lua"
+L["请先勾选一个导出目标"] = "Please select one export target first"
+L["导出一次只能选择一个目标"] = "Lua export only supports one selected target at a time"
+L["综合设置方案"] = "Settings Preset"
+L["从作者插件导入整套综合设置；这是一次性覆盖，不保留回退。"] = "Import a full settings preset from an author plugin. This is a one-time overwrite with no rollback."
+L["当前没有可用的综合设置方案，请先在作者插件的 Presets/SettingsPage.lua 粘贴“导出Lua”。"] = "No settings preset is available. Paste the exported Lua into the author plugin's Presets/SettingsPage.lua first."
+L["请先选择综合设置方案"] = "Please select a settings preset first"
+L["综合设置方案数据无效"] = "The selected settings preset data is invalid"
+L["综合设置方案导入接口未就绪"] = "The settings preset import interface is not ready"
+L["导入综合设置失败："] = "Failed to import settings preset: "
+L["综合设置已导入（覆盖当前本地设置）"] = "Settings preset imported and overwrote current local settings"
+L["确认导入综合设置方案：%s ？\n这会直接覆盖当前本地综合设置。"] = "Import settings preset: %s?\nThis will directly overwrite your current local settings."
+L["当前没有可用的小怪作者方案，请先在作者插件的 Presets/TrashConfig.lua 粘贴“导出Lua”。"] = "No trash author presets are available yet. Paste the exported Lua into Presets/TrashConfig.lua first."
+
 -- added 2026-05-24 17:00
 L["额外护盾条"] = "Extra Shield Bar"
 L["自由依附 (Beta)"] = "Free Attach (Beta)"

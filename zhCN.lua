@@ -5,6 +5,24 @@ if not L then
     return
 end
 
+-- added 2026-05-25 14:00
+L["BOSS激活"] = true
+
+-- added 2026-05-25 00:30
+L["导出Lua"] = true
+L["请先勾选一个导出目标"] = true
+L["导出一次只能选择一个目标"] = true
+L["综合设置方案"] = true
+L["从作者插件导入整套综合设置；这是一次性覆盖，不保留回退。"] = true
+L["当前没有可用的综合设置方案，请先在作者插件的 Presets/SettingsPage.lua 粘贴“导出Lua”。"] = true
+L["请先选择综合设置方案"] = true
+L["综合设置方案数据无效"] = true
+L["综合设置方案导入接口未就绪"] = true
+L["导入综合设置失败："] = true
+L["综合设置已导入（覆盖当前本地设置）"] = true
+L["确认导入综合设置方案：%s ？\n这会直接覆盖当前本地综合设置。"] = true
+L["当前没有可用的小怪作者方案，请先在作者插件的 Presets/TrashConfig.lua 粘贴“导出Lua”。"] = true
+
 -- added 2026-05-24 16:00
 L["锁定位置"] = true
 L["预览模式"] = true
