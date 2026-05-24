@@ -5,13 +5,129 @@ if not L then
     return
 end
 
+-- added 2026-05-24 17:00
+L["额外护盾条"] = "Extra Shield Bar"
+L["自由依附 (Beta)"] = "Free Attach (Beta)"
+L["开启后可将施法条组依附于任意 UI 元素。若目标框体不存在，将自动对齐到屏幕中心。"] = "Attach the cast bar group to any UI element. Falls back to screen center if the target frame doesn't exist."
+L["启用自由依附"] = "Enable Free Attach"
+L["当前目标路径"] = "Current Target Path"
+L["鼠标选取"] = "Pick with Mouse"
+L["字体：施法目标"] = "Font: Cast Target"
+L["显示目标姓名"] = "Show Target Name"
+L["并入法术名称"] = "Merge into Spell Name"
+L["中间分隔符"] = "Separator"
+L["拾取中: "] = "Picking: "
+L["左键 : 选择该框架"] = "Left Click: Select Frame"
+L["右键/ESC : 取消退出"] = "Right Click / ESC: Cancel"
+L["玩家"] = "Player"
+L["进入战斗提示"] = "Enter Combat Alert"
+L["离开战斗提示"] = "Leave Combat Alert"
+L["全选"] = "Select All"
+L["TTS语音"] = "TTS Voice"
+L["TTS文本"] = "TTS Text"
+L["语音分类"] = "Voice Category"
+L["未知首领 "] = "Unknown Boss "
+L["与中央圆环同源的施法/引导进度条。"] = "Cast/channel progress bar sharing the same source as the center ring."
+L["背景"] = "Background"
+L["低"] = "Low"
+L["中"] = "Medium"
+L["高"] = "High"
+L["对话"] = "Dialog"
+L["全屏"] = "Fullscreen"
+L["全屏对话"] = "Fullscreen Dialog"
+L["提示"] = "Tooltip"
+L["姓名版图标层级"] = "Nameplate Icon Layer"
+L["特别协助"] = "Special Thanks"
+L["感谢在开发验证与实战反馈中提供直接协助的朋友。"] = "Thanks to those who provided direct help in development testing and in-game feedback."
+L["英文本地化翻译与翻译插件协助。"] = "English localization translation and plugin assistance."
+L["英文本地化翻译"] = "English Localization"
+L["本地化翻译插件协助"] = "Locale Plugin Assistance"
+L["全选复制"] = "Select All & Copy"
+L["删除"] = "Delete"
+L["请先勾选一个Boss槽位"] = "Please select a Boss slot first"
+L["作者Lua导出一次只能勾选一个Boss槽位"] = "Author Lua export supports only one Boss slot at a time"
+L["预设插件片段已生成"] = "Preset plugin snippet generated"
+L["导出预设插件片段"] = "Export Preset Snippet"
+L["把内容粘贴到模板插件的 Config/PresetPayload.lua 后即可打包。"] = "Paste the content into Config/PresetPayload.lua of the template addon to package."
+L["作者Lua导出不包含设置页外观"] = "Author Lua export excludes settings page appearance"
+L["作者Lua导出不包含小怪CD"] = "Author Lua export excludes Trash CD"
+L["当前进度：未获取"] = "Current Progress: Not Available"
+L["路线套装"] = "Route Set"
+L["导入MDT"] = "Import MDT"
+L["请选择左侧一个私人光环对象"] = "Please select a private aura object on the left"
+L["团本首领：%d  |  大米副本：%d"] = "Raid Bosses: %d  |  M+ Dungeons: %d"
+L["对象列表"] = "Object List"
+L["当前对象没有私人光环法术。"] = "No private aura spells for this object."
+L["重置"] = "Reset"
+L["语音/配置页面依赖 ExwindTools.UI，当前未就绪。请确认 ExwindCore 已正确加载后重开面板。"] = "Voice/Config page requires ExwindTools.UI, which is not ready. Make sure ExwindCore is loaded correctly, then reopen the panel."
+L["已切换路线套装：%s"] = "Route set switched: %s"
+L["已选择路线套装：%s（尚未导入）"] = "Route set selected: %s (not yet imported)"
+L["已导入MDT路线：%s"] = "MDT route imported: %s"
+L["通道"] = "Channel"
+L["中央中号"] = "Center (Medium)"
+L["中央大字"] = "Center (Large)"
+L["图标"] = "Icon"
+L["未填写，触发时使用逻辑层传入文案"] = "Empty — text will be provided by the logic layer at trigger time"
+L["预计目标角色：治疗 / 输出"] = "Expected target role: Healer / DPS"
+L["中央文字：%s"] = "Center Text: %s"
+L["开启"] = "Enabled"
+L["中央文字覆盖：%s"] = "Center Text Override: %s"
+L["施法开始语音：%s"] = "Cast Start Voice: %s"
+L["圆环：%s"] = "Ring: %s"
+L["计时条：%s"] = "Timer Bar: %s"
+L["图标：%s"] = "Icon: %s"
+L["这一版只是原型页，用来确认布局、字段和交互方向。"] = "This is a prototype page to confirm layout, fields, and interaction direction."
+L["法术列表"] = "Spell List"
+L["原型阶段先放 1 个法术，后续扩到 15-20 个。"] = "Prototype stage shows 1 spell; will expand to 15-20 later."
+L["点击左侧法术后，可在此查看详情。"] = "Click a spell on the left to view details here."
+L["触发类型"] = "Trigger Type"
+L["自定义事件"] = "Custom Event"
+L["事件分类"] = "Event Category"
+L["自定义小怪事件"] = "Custom Trash Event"
+L["自定义小怪事件。"] = "Custom trash event."
+L["..."] = "..."
+L["小怪护盾面板"] = "Trash Shield Panel"
+L["实时监控姓名板单位的施法进度（目标为你时）。"] = "Real-time monitoring of nameplate unit cast progress (when targeting you)."
+L["团队标记"] = "Raid Marker"
+L["显示团队标记"] = "Show Raid Marker"
+L["标记大小"] = "Marker Size"
+L["玩家目标提示"] = "Player Target Indicator"
+L["提示材质"] = "Indicator Texture"
+L["提示大小"] = "Indicator Size"
+L["提示X偏移"] = "Indicator X Offset"
+L["提示Y偏移"] = "Indicator Y Offset"
+L["外观"] = "Appearance"
+L["进度条模式"] = "Bar Mode"
+L["图标模式"] = "Icon Mode"
+L["秒数字号"] = "Seconds Font Size"
+L["无法打断颜色"] = "Uninterruptible Color"
+L["字体：法术说明"] = "Font: Spell Description"
+L["对齐方式"] = "Alignment"
+L["字体：冷却时间"] = "Font: Cooldown"
+L["测试施法 "] = "Test Cast "
+L["2.5s"] = "2.5s"
+
+-- added 2026-05-24 16:00
+L["锁定位置"] = "Lock Position"
+L["预览模式"] = "Preview Mode"
+L["整体水平位置"] = "Horizontal Position"
+L["整体垂直位置"] = "Vertical Position"
+L["隐藏92级读条"] = "Hide Level 92 Cast Bar"
+L["图标尺寸"] = "Icon Size"
+L["垂直间距"] = "Vertical Spacing"
+
+-- added 2026-05-24 15:00
+L["[大秘境] 自动对话节点(NPX)BUFF"] = "[M+] Auto-gossip Nexus-Point Xenas (NPX) Buff"
+
+-- added 2026-05-24 14:00
+L["开启暴雪中央文字预警（注意：如果关闭会导致语音不工作）"] = "Enable Blizzard center text warnings (Note: disabling this will break voice alerts)"
+
 -- added 2026-05-24 08:00
 L["私信"] = "DM"
 L["直播间"] = "Live Stream"
 
 -- added 2026-05-24 00:00
 -- added 2026-05-24 01:50
-L["额外护盾条"] = "额外护盾条"  -- TODO: translate
 
 L["额外感谢"] = "Special Thanks"
 
@@ -26,19 +142,6 @@ L["数值文本"] = "Value Text"
 
 -- added 2026-05-23 07:30
 -- added 2026-05-23 07:27
-L["自由依附 (Beta)"] = "自由依附 (Beta)"  -- TODO: translate
-L["开启后可将施法条组依附于任意 UI 元素。若目标框体不存在，将自动对齐到屏幕中心。"] = "开启后可将施法条组依附于任意 UI 元素。若目标框体不存在，将自动对齐到屏幕中心。"  -- TODO: translate
-L["启用自由依附"] = "启用自由依附"  -- TODO: translate
-L["当前目标路径"] = "当前目标路径"  -- TODO: translate
-L["鼠标选取"] = "鼠标选取"  -- TODO: translate
-L["字体：施法目标"] = "字体：施法目标"  -- TODO: translate
-L["显示目标姓名"] = "显示目标姓名"  -- TODO: translate
-L["并入法术名称"] = "并入法术名称"  -- TODO: translate
-L["中间分隔符"] = "中间分隔符"  -- TODO: translate
-L["拾取中: "] = "拾取中: "  -- TODO: translate
-L["左键 : 选择该框架"] = "左键 : 选择该框架"  -- TODO: translate
-L["右键/ESC : 取消退出"] = "右键/ESC : 取消退出"  -- TODO: translate
-L["玩家"] = "玩家"  -- TODO: translate
 
 L["测试协助"] = "QA Credits"
 
@@ -715,8 +818,7 @@ L["启用团本首领提示"] = "Enable Raid Boss Alerts"
 L["首领战时自动关闭战斗音频预警"] = "Auto-disable Combat Audio Alerts during boss fights"
 L["开启中央文字预警提示音（预设叮一声）"] = "Enable center warning alert sound (default ding)"
 L["开启中央文字预警（注意：如果关闭会导致语音不工作）"] = "Enable central text warnings (required for voice to work)"
-L["开启暴雪中央文字预警（注意：如果关闭会导致语音不工作）"] =
-"Enable Blizzard encounter warning text (warning: disabling this will also disable voice)."
+
 L["关闭暴雪原生计时条"] = "Disable Blizzard native timeline bar"
 L["输出通道"] = "Output Channel"
 L["全局音量"] = "Global Volume"
@@ -1235,53 +1337,8 @@ L["黄色"] = "Yellow"
 -- AUTO-GENERATED VOICE LABELS END
 
 -- auto-added by sync_locale_keys.py
-L["进入战斗提示"] = "进入战斗提示"  -- TODO: translate
-L["离开战斗提示"] = "离开战斗提示"  -- TODO: translate
-L["全选"] = "全选"  -- TODO: translate
-L["水平偏移 (X)"] = "水平偏移 (X)"  -- TODO: translate
-L["垂直偏移 (Y)"] = "垂直偏移 (Y)"  -- TODO: translate
-L["TTS语音"] = "TTS语音"  -- TODO: translate
-L["TTS文本"] = "TTS文本"  -- TODO: translate
-L["语音分类"] = "语音分类"  -- TODO: translate
-L["未知首领 "] = "未知首领 "  -- TODO: translate
-L["显示名称"] = "显示名称"  -- TODO: translate
-L["显示时间"] = "显示时间"  -- TODO: translate
-L["法术名称"] = "法术名称"  -- TODO: translate
-L["提示图标"] = "提示图标"  -- TODO: translate
-L["显示提示图标"] = "显示提示图标"  -- TODO: translate
-L["提示图标锚点"] = "提示图标锚点"  -- TODO: translate
-L["左右排列"] = "左右排列"  -- TODO: translate
-L["上下排列"] = "上下排列"  -- TODO: translate
-L["增长方向"] = "增长方向"  -- TODO: translate
-L["测试施法检测"] = "测试施法检测"  -- TODO: translate
-L["时间文本"] = "时间文本"  -- TODO: translate
-L["倒数文字"] = "倒数文字"  -- TODO: translate
-L["播放音效"] = "播放音效"  -- TODO: translate
-L["开启暴雪中央文字预警（注意：如果关闭会导致语音不工作）"] = "开启暴雪中央文字预警（注意：如果关闭会导致语音不工作）"  -- TODO: translate
-L["与中央圆环同源的施法/引导进度条。"] = "与中央圆环同源的施法/引导进度条。"  -- TODO: translate
-L["背景"] = "背景"  -- TODO: translate
-L["低"] = "低"  -- TODO: translate
-L["中"] = "中"  -- TODO: translate
-L["高"] = "高"  -- TODO: translate
-L["对话"] = "对话"  -- TODO: translate
-L["全屏"] = "全屏"  -- TODO: translate
-L["全屏对话"] = "全屏对话"  -- TODO: translate
-L["提示"] = "提示"  -- TODO: translate
-L["姓名版图标层级"] = "姓名版图标层级"  -- TODO: translate
-L["特别协助"] = "特别协助"  -- TODO: translate
-L["感谢在开发验证与实战反馈中提供直接协助的朋友。"] = "感谢在开发验证与实战反馈中提供直接协助的朋友。"  -- TODO: translate
-L["英文本地化翻译与翻译插件协助。"] = "英文本地化翻译与翻译插件协助。"  -- TODO: translate
-L["英文本地化翻译"] = "英文本地化翻译"  -- TODO: translate
-L["本地化翻译插件协助"] = "本地化翻译插件协助"  -- TODO: translate
-L["全选复制"] = "全选复制"  -- TODO: translate
-L["删除"] = "删除"  -- TODO: translate
-L["请先勾选一个Boss槽位"] = "请先勾选一个Boss槽位"  -- TODO: translate
-L["作者Lua导出一次只能勾选一个Boss槽位"] = "作者Lua导出一次只能勾选一个Boss槽位"  -- TODO: translate
-L["预设插件片段已生成"] = "预设插件片段已生成"  -- TODO: translate
-L["导出预设插件片段"] = "导出预设插件片段"  -- TODO: translate
-L["把内容粘贴到模板插件的 Config/PresetPayload.lua 后即可打包。"] = "把内容粘贴到模板插件的 Config/PresetPayload.lua 后即可打包。"  -- TODO: translate
-L["作者Lua导出不包含设置页外观"] = "作者Lua导出不包含设置页外观"  -- TODO: translate
-L["作者Lua导出不包含小怪CD"] = "作者Lua导出不包含小怪CD"  -- TODO: translate
+L["水平偏移 (X)"] = "X Offset"
+L["垂直偏移 (Y)"] = "Y Offset"
 L["内置作者Lua已生成"] = "Built-in author Lua generated"
 L["导出内置作者Lua"] = "Export Built-in Author Lua"
 L["把内容直接粘贴到对应作者文件："] = "Paste the content into the corresponding author file:"
@@ -1295,49 +1352,8 @@ L["导出字符串"] = "Export String"
 L["预设插件片段"] = "Preset Plugin Snippet"
 L["内置作者Lua"] = "Built-in Author Lua"
 L["作者插件Lua"] = "Plugin Author Lua"
-L["当前进度：未获取"] = "当前进度：未获取"  -- TODO: translate
-L["路线套装"] = "路线套装"  -- TODO: translate
-L["导入MDT"] = "导入MDT"  -- TODO: translate
-L["请选择左侧一个私人光环对象"] = "请选择左侧一个私人光环对象"  -- TODO: translate
-L["团本首领：%d  |  大米副本：%d"] = "团本首领：%d  |  大米副本：%d"  -- TODO: translate
-L["对象列表"] = "对象列表"  -- TODO: translate
-L["当前对象没有私人光环法术。"] = "当前对象没有私人光环法术。"  -- TODO: translate
-L["重置"] = "重置"  -- TODO: translate
-L["间距"] = "间距"  -- TODO: translate
-L["最大显示数量"] = "最大显示数量"  -- TODO: translate
-L["语音/配置页面依赖 ExwindTools.UI，当前未就绪。请确认 ExwindCore 已正确加载后重开面板。"] = "语音/配置页面依赖 ExwindTools.UI，当前未就绪。请确认 ExwindCore 已正确加载后重开面板。"  -- TODO: translate
-L["已切换路线套装：%s"] = "已切换路线套装：%s"  -- TODO: translate
-L["已选择路线套装：%s（尚未导入）"] = "已选择路线套装：%s（尚未导入）"  -- TODO: translate
-L["已导入MDT路线：%s"] = "已导入MDT路线：%s"  -- TODO: translate
-L["通道"] = "通道"  -- TODO: translate
-L["中央中号"] = "中央中号"  -- TODO: translate
-L["中央大字"] = "中央大字"  -- TODO: translate
-L["圆环"] = "圆环"  -- TODO: translate
-L["图标"] = "图标"  -- TODO: translate
-L["未填写，触发时使用逻辑层传入文案"] = "未填写，触发时使用逻辑层传入文案"  -- TODO: translate
-L["预计目标角色：治疗 / 输出"] = "预计目标角色：治疗 / 输出"  -- TODO: translate
-L["中央文字：%s"] = "中央文字：%s"  -- TODO: translate
-L["开启"] = "开启"  -- TODO: translate
-L["中央文字覆盖：%s"] = "中央文字覆盖：%s"  -- TODO: translate
-L["施法开始语音：%s"] = "施法开始语音：%s"  -- TODO: translate
-L["圆环：%s"] = "圆环：%s"  -- TODO: translate
-L["计时条：%s"] = "计时条：%s"  -- TODO: translate
-L["图标：%s"] = "图标：%s"  -- TODO: translate
-L["这一版只是原型页，用来确认布局、字段和交互方向。"] = "这一版只是原型页，用来确认布局、字段和交互方向。"  -- TODO: translate
-L["法术列表"] = "法术列表"  -- TODO: translate
-L["原型阶段先放 1 个法术，后续扩到 15-20 个。"] = "原型阶段先放 1 个法术，后续扩到 15-20 个。"  -- TODO: translate
-L["点击左侧法术后，可在此查看详情。"] = "点击左侧法术后，可在此查看详情。"  -- TODO: translate
-L["姓名版"] = "姓名版"  -- TODO: translate
-L["读条"] = "读条"  -- TODO: translate
-L["触发类型"] = "触发类型"  -- TODO: translate
-L["自定义事件"] = "自定义事件"  -- TODO: translate
-L["事件分类"] = "事件分类"  -- TODO: translate
-L["自定义小怪事件"] = "自定义小怪事件"  -- TODO: translate
-L["自定义小怪事件。"] = "自定义小怪事件。"  -- TODO: translate
 
 -- auto-added by sync_locale_keys.py
-L["..."] = "..."  -- TODO: translate
-L["小怪护盾面板"] = "小怪护盾面板"  -- TODO: translate
 L["预设配置"] = "Default Profile"
 L["小怪作者Lua"] = "Trash Author Lua"
 L["导出小怪作者Lua"] = "Export Trash Author Lua"
@@ -1372,39 +1388,13 @@ L["冷却设置"] = "Cooldown Settings"
 L["护盾"] = "Shield"
 
 -- auto-added by sync_locale_keys.py
-L["被点名提示 (TargetAlert)"] = "被点名提示 (TargetAlert)"  -- TODO: translate
-L["实时监控姓名板单位的施法进度（目标为你时）。"] = "实时监控姓名板单位的施法进度（目标为你时）。"  -- TODO: translate
-L["锁定位置"] = "锁定位置"  -- TODO: translate
-L["预览模式"] = "预览模式"  -- TODO: translate
-L["整体水平位置"] = "整体水平位置"  -- TODO: translate
-L["整体垂直位置"] = "整体垂直位置"  -- TODO: translate
-L["隐藏92级读条"] = "隐藏92级读条"  -- TODO: translate
-L["团队标记"] = "团队标记"  -- TODO: translate
-L["显示团队标记"] = "显示团队标记"  -- TODO: translate
-L["标记大小"] = "标记大小"  -- TODO: translate
-L["玩家目标提示"] = "玩家目标提示"  -- TODO: translate
-L["提示材质"] = "提示材质"  -- TODO: translate
-L["水平偏移"] = "水平偏移"  -- TODO: translate
-L["垂直偏移"] = "垂直偏移"  -- TODO: translate
-L["提示大小"] = "提示大小"  -- TODO: translate
-L["提示X偏移"] = "提示X偏移"  -- TODO: translate
-L["提示Y偏移"] = "提示Y偏移"  -- TODO: translate
-L["外观"] = "外观"  -- TODO: translate
-L["进度条模式"] = "进度条模式"  -- TODO: translate
-L["图标模式"] = "图标模式"  -- TODO: translate
-L["图标尺寸"] = "图标尺寸"  -- TODO: translate
-L["秒数字号"] = "秒数字号"  -- TODO: translate
-L["无法打断颜色"] = "无法打断颜色"  -- TODO: translate
-L["垂直间距"] = "垂直间距"  -- TODO: translate
-L["字体：法术说明"] = "字体：法术说明"  -- TODO: translate
-L["对齐方式"] = "对齐方式"  -- TODO: translate
-L["字体：冷却时间"] = "字体：冷却时间"  -- TODO: translate
+L["被点名提示 (TargetAlert)"] = "Target Alert (TargetAlert)"
+L["水平偏移"] = "X Offset"
+L["垂直偏移"] = "Y Offset"
 L["时间文本设置"] = "Time Text Settings"
 L["DPS职责下开启"] = "Enable for DPS"
 L["治疗职责下开启"] = "Enable for Healer"
 L["|cffff120aDPS职责下开启|r"] = "|cffff120aEnable for DPS|r"
 L["|cff02ff0a治疗职责下开启|r"] = "|cff02ff0aEnable for Healer|r"
-L["显示时间文字"] = "显示时间文字"  -- TODO: translate
-L["被点名提示"] = "被点名提示"  -- TODO: translate
-L["测试施法 "] = "测试施法 "  -- TODO: translate
-L["2.5s"] = "2.5s"  -- TODO: translate
+L["显示时间文字"] = "Show Time Text"
+L["被点名提示"] = "Target Alert"

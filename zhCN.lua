@@ -5,6 +5,21 @@ if not L then
     return
 end
 
+-- added 2026-05-24 16:00
+L["锁定位置"] = true
+L["预览模式"] = true
+L["整体水平位置"] = true
+L["整体垂直位置"] = true
+L["隐藏92级读条"] = true
+L["图标尺寸"] = true
+L["垂直间距"] = true
+
+-- added 2026-05-24 15:00
+L["[大秘境] 自动对话节点(NPX)BUFF"] = true
+
+-- added 2026-05-24 14:00
+L["开启暴雪中央文字预警（注意：如果关闭会导致语音不工作）"] = true
+
 -- added 2026-05-24 08:00
 L["私信"] = true
 L["直播间"] = true
