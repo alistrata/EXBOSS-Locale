@@ -5,6 +5,73 @@ if not L then
     return
 end
 
+-- added 2026-05-24 16:00
+L["锁定位置"] = true
+L["预览模式"] = true
+L["整体水平位置"] = true
+L["整体垂直位置"] = true
+L["隐藏92级读条"] = true
+L["图标尺寸"] = true
+L["垂直间距"] = true
+
+-- added 2026-05-24 15:00
+L["[大秘境] 自动对话节点(NPX)BUFF"] = true
+
+-- added 2026-05-24 14:00
+L["开启暴雪中央文字预警（注意：如果关闭会导致语音不工作）"] = true
+
+-- added 2026-05-24 08:00
+L["私信"] = true
+L["直播间"] = true
+
+-- added 2026-05-24 00:00
+-- added 2026-05-24 01:50
+L["额外护盾条"] = true
+
+L["额外感谢"] = true
+
+-- added 2026-05-23 07:30
+-- added 2026-05-24 00:40
+L["额外护盾条"] = true
+L["额外护盾条设置"] = true
+L["供首领/副本额外功能复用的单体护盾监控条。"] = true
+L["显示数值"] = true
+L["测试护盾(3秒)"] = true
+L["数值文本"] = true
+
+-- added 2026-05-23 07:30
+-- added 2026-05-23 07:27
+L["自由依附 (Beta)"] = true
+L["开启后可将施法条组依附于任意 UI 元素。若目标框体不存在，将自动对齐到屏幕中心。"] = true
+L["启用自由依附"] = true
+L["当前目标路径"] = true
+L["鼠标选取"] = true
+L["字体：施法目标"] = true
+L["显示目标姓名"] = true
+L["并入法术名称"] = true
+L["中间分隔符"] = true
+L["拾取中: "] = true
+L["左键 : 选择该框架"] = true
+L["右键/ESC : 取消退出"] = true
+L["玩家"] = true
+
+L["测试协助"] = true
+
+-- added 2026-05-23 06:43
+L["小怪护盾监控"] = true
+L["小工具"] = true
+L["大米怪物施法"] = true
+L["大米怪物施法 (MythicCast)"] = true
+L["实时监控姓名板单位的施法进度。"] = true
+L["进入5人副本，施法监控已启用。"] = true
+
+-- added 2026-05-23 02:50
+L["感谢以下贡献者提供各语言翻译。"] = true
+L["如有遗漏请提醒我"] = true
+
+-- added 2026-05-23 00:00
+L["关于插件"] = true
+
 L["首页(占位)"] = true
 L["首页"] = true
 L["语音/配置"] = true
@@ -364,7 +431,16 @@ L["感谢使用 EXBoss。"] = true
 L["反馈请尽量附上副本、首领、难度、职业职责、错误截图或复现步骤。"] = true
 L["自动跟随客户端"] = true
 L["强制 zhCN"] = true
+L["强制 zhTW"] = true
 L["强制 enUS"] = true
+L["强制 koKR"] = true
+L["强制 deDE"] = true
+L["强制 esES"] = true
+L["强制 esMX"] = true
+L["强制 itIT"] = true
+L["强制 ptBR"] = true
+L["强制 frFR"] = true
+L["强制 ruRU"] = true
 L["这是非英文语音包。\n确认后将停止英文环境下的自动强制切换。"] = true
 L["自动对话"] = true
 L["启用自动对话"] = true
@@ -521,6 +597,7 @@ L["大小"] = true
 L["X偏移"] = true
 L["Y偏移"] = true
 L["图案倒数时间"] = true
+L["倒数"] = true
 L["副本 "] = true
 L["首领 "] = true
 L["事件 "] = true
@@ -883,6 +960,10 @@ L["技能数字倒数语音、名称提前秒数与单数字试听。"] = true
 L["启用倒数"] = true
 L["倒数文本"] = true
 L["提前倒数"] = true
+L["开怪倒数播放语音"] = true
+L["用法：/exb pull [秒数]"] = true
+L["当前客户端不支持团队倒数。"] = true
+L["开怪倒数功能未就绪"] = true
 L["播放文字"] = true
 L["作者临时禁用语音"] = true
 L["该技能语音已被作者临时禁用"] = true
@@ -987,3 +1068,77 @@ L["自定义事件"] = true
 L["事件分类"] = true
 L["自定义小怪事件"] = true
 L["自定义小怪事件。"] = true
+
+-- auto-added by sync_locale_keys.py
+L["..."] = true
+L["小怪护盾面板"] = true
+L["预设配置"] = true
+L["小怪作者Lua"] = true
+L["导出小怪作者Lua"] = true
+L["小怪作者Lua已生成"] = true
+L["小怪作者Lua导出不包含设置页外观"] = true
+L["请先勾选小怪CD设置"] = true
+L["小怪作者Lua导出不包含Boss槽位"] = true
+L["小怪作者方案"] = true
+L["导入覆盖"] = true
+L["当前没有可用的小怪作者方案"] = true
+L["当前没有可用的小怪作者方案，请先在作者插件的 Config/TrashConfig.lua 粘贴“小怪作者Lua”。"] = true
+L["请先选择小怪作者方案"] = true
+L["小怪作者方案导入接口未就绪"] = true
+L["导入作者小怪配置失败："] = true
+L["作者小怪配置已导入（覆盖当前本地配置）"] = true
+L["确认导入小怪作者方案：%s ？\n这会直接覆盖当前本地小怪配置。"] = true
+L["从作者插件导入整套小怪配置；这是一次性覆盖，不保留回退。"] = true
+L["当前方案"] = true
+L["迈萨拉洞窟 - 小怪护盾面板"] = true
+L["用于调整迈萨拉洞窟阴冷散兵护盾面板的位置。点击后进入 EXBoss 编辑模式，可直接拖动绿色锚点。"] = true
+L["最多显示几个"] = true
+L["沃达扎护盾条"] = true
+L["迈萨拉洞窟 - 沃达扎护盾条"] = true
+L["用于调整迈萨拉洞窟沃达扎护盾条的位置。点击后进入 EXBoss 编辑模式，可直接拖动绿色锚点。"] = true
+L["额外圆环"] = true
+L["时间轴样式选择"] = true
+L["注意:声音大小请勿在此修改,若要调整声音大小请在ESC的设置面板修改"] = true
+L["(该设置只在团本生效,只能整体启用或是禁用,无法过滤)"] = true
+L["为开怪倒数 播放语音"] = true
+L["外观设置"] = true
+L["冷却设置"] = true
+L["护盾"] = true
+
+-- auto-added by sync_locale_keys.py
+L["被点名提示 (TargetAlert)"] = true
+L["实时监控姓名板单位的施法进度（目标为你时）。"] = true
+L["锁定位置"] = true
+L["预览模式"] = true
+L["整体水平位置"] = true
+L["整体垂直位置"] = true
+L["隐藏92级读条"] = true
+L["团队标记"] = true
+L["显示团队标记"] = true
+L["标记大小"] = true
+L["玩家目标提示"] = true
+L["提示材质"] = true
+L["水平偏移"] = true
+L["垂直偏移"] = true
+L["提示大小"] = true
+L["提示X偏移"] = true
+L["提示Y偏移"] = true
+L["外观"] = true
+L["进度条模式"] = true
+L["图标模式"] = true
+L["图标尺寸"] = true
+L["秒数字号"] = true
+L["无法打断颜色"] = true
+L["垂直间距"] = true
+L["字体：法术说明"] = true
+L["对齐方式"] = true
+L["字体：冷却时间"] = true
+L["时间文本设置"] = true
+L["DPS职责下开启"] = true
+L["治疗职责下开启"] = true
+L["|cffff120aDPS职责下开启|r"] = true
+L["|cff02ff0a治疗职责下开启|r"] = true
+L["显示时间文字"] = true
+L["被点名提示"] = true
+L["测试施法 "] = true
+L["2.5s"] = true
