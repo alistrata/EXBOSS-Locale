@@ -13,6 +13,45 @@ end
 -- added 2026-05-24 01:57
 
 -- added 2026-05-25 15:00
+-- added 2026-05-26 01:04
+L["当前没有可用的综合设置方案"] = "当前没有可用的综合设置方案"  -- TODO: translate
+L["点名(射线)"] = "Marked (Beam)"  -- TODO: translate
+L["AOE(击退)"] = "AOE (Knockback)"  -- TODO: translate
+L["驱散(坦克)"] = "Dispel (Tank)"  -- TODO: translate
+L["坦克(吸收)"] = "Tank (Absorb)"  -- TODO: translate
+L["躲开火圈"] = "Dodge Fire Ring"  -- TODO: translate
+L["点名(驱散)"] = "Marked (Dispel)"  -- TODO: translate
+L["AOE(沉默)"] = "AOE (Silence)"  -- TODO: translate
+L["准备吸人"] = "Prepare for Pull-in"  -- TODO: translate
+L["救人(定身)"] = "Rescue (Root)"  -- TODO: translate
+L["点名追人"] = "Fixate"  -- TODO: translate
+L["正面顺劈"] = "Frontal Cleave"  -- TODO: translate
+L["治疗坦克"] = "Heal Tank"  -- TODO: translate
+L["躲开正面"] = "Dodge Frontal"  -- TODO: translate
+L["注意躲球"] = "Watch Orbs"  -- TODO: translate
+L["驱散(魔法)"] = "Dispel (Magic)"  -- TODO: translate
+L["坦克尖刺(击飞)"] = "Tank Spike (Knock Up)"  -- TODO: translate
+L["点名(吸收)"] = "Marked (Absorb)"  -- TODO: translate
+L["注意地板"] = "Watch Ground"  -- TODO: translate
+L["转火宝珠"] = "Switch to Orb"  -- TODO: translate
+L["AOE(断条)"] = "AOE (Interrupt)"  -- TODO: translate
+L["控断小怪"] = "CC and Interrupt Adds"  -- TODO: translate
+L["BOSS激活"] = "Boss Active"  -- TODO: translate
+L["导出Lua"] = "Export Lua"  -- TODO: translate
+L["请先勾选一个导出目标"] = "Please select one export target first"  -- TODO: translate
+L["导出一次只能选择一个目标"] = "Lua export only supports one selected target at a time"  -- TODO: translate
+L["综合设置方案"] = "Settings Preset"  -- TODO: translate
+L["从作者插件导入整套综合设置；这是一次性覆盖，不保留回退。"] = "Import a full settings preset from an author plugin. This is a one-time overwrite with no rollback."  -- TODO: translate
+L["当前没有可用的综合设置方案，请先在作者插件的 Presets/SettingsPage.lua 粘贴“导出Lua”。"] = "No settings preset is available. Paste the exported Lua into the author plugin's Presets/SettingsPage.lua first."  -- TODO: translate
+L["请先选择综合设置方案"] = "Please select a settings preset first"  -- TODO: translate
+L["综合设置方案数据无效"] = "The selected settings preset data is invalid"  -- TODO: translate
+L["综合设置方案导入接口未就绪"] = "The settings preset import interface is not ready"  -- TODO: translate
+L["导入综合设置失败："] = "Failed to import settings preset: "  -- TODO: translate
+L["综合设置已导入（覆盖当前本地设置）"] = "Settings preset imported and overwrote current local settings"  -- TODO: translate
+L["确认导入综合设置方案：%s ？\n这会直接覆盖当前本地综合设置。"] = "Import settings preset: %s?\nThis will directly overwrite your current local settings."  -- TODO: translate
+L["当前没有可用的小怪作者方案，请先在作者插件的 Presets/TrashConfig.lua 粘贴“导出Lua”。"] = "No trash author presets are available yet. Paste the exported Lua into Presets/TrashConfig.lua first."  -- TODO: translate
+L["[大秘境] 自动对话节点(NPX)BUFF"] = "[M+] Auto-gossip Nexus-Point Xenas (NPX) Buff"  -- TODO: translate
+
 L["私信"] = "DM"  -- TODO: translate
 L["直播间"] = "Live Stream"  -- TODO: translate
 L["额外护盾条设置"] = "Extra Shield Bar Settings"  -- TODO: translate

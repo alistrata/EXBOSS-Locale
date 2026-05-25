@@ -5,6 +5,32 @@ if not L then
     return
 end
 
+-- added 2026-05-26 00:58
+-- added 2026-05-26 01:04
+L["当前没有可用的综合设置方案"] = "No settings presets are currently available"
+
+L["点名(射线)"] = "Marked (Beam)"
+L["AOE(击退)"] = "AOE (Knockback)"
+L["驱散(坦克)"] = "Dispel (Tank)"
+L["坦克(吸收)"] = "Tank (Absorb)"
+L["躲开火圈"] = "Dodge Fire Ring"
+L["点名(驱散)"] = "Marked (Dispel)"
+L["AOE(沉默)"] = "AOE (Silence)"
+L["准备吸人"] = "Prepare for Pull-in"
+L["救人(定身)"] = "Rescue (Root)"
+L["点名追人"] = "Fixate"
+L["正面顺劈"] = "Frontal Cleave"
+L["治疗坦克"] = "Heal Tank"
+L["躲开正面"] = "Dodge Frontal"
+L["注意躲球"] = "Watch Orbs"
+L["驱散(魔法)"] = "Dispel (Magic)"
+L["坦克尖刺(击飞)"] = "Tank Spike (Knock Up)"
+L["点名(吸收)"] = "Marked (Absorb)"
+L["注意地板"] = "Watch Ground"
+L["转火宝珠"] = "Switch to Orb"
+L["AOE(断条)"] = "AOE (Interrupt)"
+L["控断小怪"] = "CC and Interrupt Adds"
+
 -- added 2026-05-25 14:00
 L["BOSS激活"] = "Boss Active"
 

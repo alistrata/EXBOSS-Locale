@@ -5,6 +5,32 @@ if not L then
     return
 end
 
+-- added 2026-05-26 00:58
+-- added 2026-05-26 01:04
+L["当前没有可用的综合设置方案"] = true
+
+L["点名(射线)"] = true
+L["AOE(击退)"] = true
+L["驱散(坦克)"] = true
+L["坦克(吸收)"] = true
+L["躲开火圈"] = true
+L["点名(驱散)"] = true
+L["AOE(沉默)"] = true
+L["准备吸人"] = true
+L["救人(定身)"] = true
+L["点名追人"] = true
+L["正面顺劈"] = true
+L["治疗坦克"] = true
+L["躲开正面"] = true
+L["注意躲球"] = true
+L["驱散(魔法)"] = true
+L["坦克尖刺(击飞)"] = true
+L["点名(吸收)"] = true
+L["注意地板"] = true
+L["转火宝珠"] = true
+L["AOE(断条)"] = true
+L["控断小怪"] = true
+
 -- added 2026-05-25 14:00
 L["BOSS激活"] = true
 
