@@ -5,6 +5,12 @@ if not L then
     return
 end
 
+-- added 2026-05-30
+L["背景圆环"] = "Background Ring"
+L["启用背景圆环"] = "Enable Background Ring"
+L["背景颜色"] = "Background Color"
+L["背景透明度"] = "Background Alpha"
+
 -- added 2026-05-28 15:00
 -- added 2026-05-28 09:25
 L["确认"] = "Confirm"
