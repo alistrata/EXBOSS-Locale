@@ -10,6 +10,9 @@ L["背景圆环"] = "Background Ring"
 L["启用背景圆环"] = "Enable Background Ring"
 L["背景颜色"] = "Background Color"
 L["背景透明度"] = "Background Alpha"
+L["点你"] = "On You"
+L["被点名"] = "Targeted"
+L["开始被点名提示"] = "Target Alert on Cast Start"
 
 -- added 2026-05-28 15:00
 -- added 2026-05-28 09:25
