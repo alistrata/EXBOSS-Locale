@@ -145,7 +145,7 @@ L["启用单点音效"] = "Enable single-target sound"  -- TODO: translate
 L["启用双点音效"] = "Enable multi-target sound"  -- TODO: translate
 L["仅5人本启用"] = "Only in 5-player dungeons"  -- TODO: translate
 
-L["确认"] = "Confirm"  -- TODO: translate
+L["确认"] = "Confirmer"  -- TODO: translate
 L["单点名LSM音效"] = "Single Target LSM Sound"  -- TODO: translate
 L["多点名LSM音效"] = "Multi-Target LSM Sound"  -- TODO: translate
 L["检测延迟(秒)"] = "Detection Delay (sec)"  -- TODO: translate
