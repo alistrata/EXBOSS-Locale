@@ -5,6 +5,45 @@ if not L then
     return
 end
 
+-- added 2026-06-07
+-- added 2026-06-07 00:13
+L["状态图标"] = "Status Icons"
+L["迈萨拉洞窟 3号 - 沃达扎护盾"] = "Maysara Cavern Boss 3 - Wodaza Shield"
+L["进入编辑模式后可直接调整额外护盾条位置。"] = "Enter edit mode to reposition the extra shield bar directly."
+L["将你的配置/语音打包成插件"] = "Package your settings / voice into a plugin"
+L["如果你觉得插件不错，可以小额赞助"] = "If you like the addon, small donations are welcome"
+L["中文"] = "Chinese"
+L["英文"] = "English"
+L["复制或选中下面联系方式即可。"] = "Copy or select the contact info below."
+L["复制或选中下面链接即可。"] = "Copy or select the link below."
+L["如果你想参与本地化或是反馈，可以在："] = "If you want to help with localization or send feedback, visit:"
+L["语音包列表"] = "Voice Pack List"
+L["首页依赖 ExwindTools.UI 与 ExwindGrid，当前未就绪。请确认 ExwindCore 已正确加载后重开面板。"] = "The home page depends on ExwindTools.UI and ExwindGrid, which are not ready yet. Make sure ExwindCore loaded correctly, then reopen the panel."
+L["通用图标容器，由其他模块通过 API 推入显示条目。可选发光，并支持多个图标向左/右/上/下增长。"] = "A generic icon container that other modules can push entries into through the API. Optional glow is supported, and multiple icons can grow left, right, up, or down."
+L["显示文本"] = "Display Text"
+L["文字设置"] = "Text Settings"
+L["发光样式"] = "Glow Style"
+L["被点名时输出到图标提示"] = "Output to the icon hint when targeted"
+
+L["饰品监控"] = "Trinket Monitor"
+L["预览"] = "Preview"
+L["第一个图标"] = "First Icon"
+L["第二个图标"] = "Second Icon"
+L["第三个图标"] = "Third Icon"
+L["第四个图标"] = "Fourth Icon"
+L["第五个图标"] = "Fifth Icon"
+L["第六个图标"] = "Sixth Icon"
+L["第七个图标"] = "Seventh Icon"
+L["CD结束时"] = "When CD Ends"
+L["触发时发光"] = "Glow on Trigger"
+L["层数文字设置"] = "Stack Text Settings"
+L["发光设置"] = "Glow Settings"
+L["饰品顺序"] = "Trinket Order"
+L["正常"] = "Normal"
+L["灰色"] = "Gray"
+L["累加样本"] = "Extension Sample"
+L["层数样本"] = "Stack Sample"
+
 -- added 2026-05-30
 -- added 2026-06-01 02:19
 -- added 2026-06-01 03:59
@@ -722,7 +761,7 @@ L["如果你觉得插件不错，可以小额赞助。"] = "If you like the addo
 L["赞助链接"] = "Support Link"
 L["问题反馈"] = "Feedback"
 L["遇到问题、语音不合适、配置建议都可以反馈。"] = "Report issues, voice concerns, or configuration suggestions here."
-L["也可以在 Bilibili @绿色歹人 直播间直接询问。"] = "You can also ask directly in the Bilibili @绿色歹人 livestream."
+L["也可以在 Bilibili @绿色歹人 直播间直接询问。"] = "You can also ask directly in the author's Bilibili livestream."
 L["制作名单"] = "Credits"
 L["感谢参与插件制作、翻译、语音与测试的朋友。"] = "Thanks to everyone who helped with development, localization, voice work, and testing."
 L["插件作者"] = "Author"

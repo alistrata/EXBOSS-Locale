@@ -15,6 +15,47 @@ end
 -- added 2026-05-27 sync
 -- added 2026-05-28 09:25
 -- added 2026-06-01 07:48
+-- added 2026-06-07 00:13
+L["状态图标"] = "Status Icons"  -- TODO: translate
+L["迈萨拉洞窟 3号 - 沃达扎护盾"] = "Maysara Cavern Boss 3 - Wodaza Shield"  -- TODO: translate
+L["进入编辑模式后可直接调整额外护盾条位置。"] = "Enter edit mode to reposition the extra shield bar directly."  -- TODO: translate
+L["将你的配置/语音打包成插件"] = "Package your settings / voice into a plugin"  -- TODO: translate
+L["如果你觉得插件不错，可以小额赞助"] = "If you like the addon, small donations are welcome"  -- TODO: translate
+L["中文"] = "Chinese"  -- TODO: translate
+L["英文"] = "English"  -- TODO: translate
+L["复制或选中下面联系方式即可。"] = "Copy or select the contact info below."  -- TODO: translate
+L["复制或选中下面链接即可。"] = "Copy or select the link below."  -- TODO: translate
+L["如果你想参与本地化或是反馈，可以在："] = "If you want to help with localization or send feedback, visit:"  -- TODO: translate
+L["语音包列表"] = "Voice Pack List"  -- TODO: translate
+L["首页依赖 ExwindTools.UI 与 ExwindGrid，当前未就绪。请确认 ExwindCore 已正确加载后重开面板。"] = "The home page depends on ExwindTools.UI and ExwindGrid, which are not ready yet. Make sure ExwindCore loaded correctly, then reopen the panel."  -- TODO: translate
+L["通用图标容器，由其他模块通过 API 推入显示条目。可选发光，并支持多个图标向左/右/上/下增长。"] = "A generic icon container that other modules can push entries into through the API. Optional glow is supported, and multiple icons can grow left, right, up, or down."  -- TODO: translate
+L["显示文本"] = "Display Text"  -- TODO: translate
+L["文字设置"] = "Text Settings"  -- TODO: translate
+L["发光样式"] = "Glow Style"  -- TODO: translate
+L["被点名时输出到图标提示"] = "Output to the icon hint when targeted"  -- TODO: translate
+L["饰品监控"] = "Trinket Monitor"  -- TODO: translate
+L["预览"] = "Preview"  -- TODO: translate
+L["第一个图标"] = "First Icon"  -- TODO: translate
+L["第二个图标"] = "Second Icon"  -- TODO: translate
+L["第三个图标"] = "Third Icon"  -- TODO: translate
+L["第四个图标"] = "Fourth Icon"  -- TODO: translate
+L["第五个图标"] = "Fifth Icon"  -- TODO: translate
+L["第六个图标"] = "Sixth Icon"  -- TODO: translate
+L["第七个图标"] = "Seventh Icon"  -- TODO: translate
+L["CD结束时"] = "When CD Ends"  -- TODO: translate
+L["触发时发光"] = "Glow on Trigger"  -- TODO: translate
+L["层数文字设置"] = "Stack Text Settings"  -- TODO: translate
+L["发光设置"] = "Glow Settings"  -- TODO: translate
+L["饰品顺序"] = "Trinket Order"  -- TODO: translate
+L["正常"] = "Normal"  -- TODO: translate
+L["灰色"] = "Gray"  -- TODO: translate
+L["累加样本"] = "Extension Sample"  -- TODO: translate
+L["层数样本"] = "Stack Sample"  -- TODO: translate
+L["音效"] = "Sound"  -- TODO: translate
+L["文本"] = "Text"  -- TODO: translate
+L["隐遁提示"] = "Stealth Alert"  -- TODO: translate
+L["倒数提示"] = "Countdown Alert"  -- TODO: translate
+
 L["AOE+吸奶盾"] = "AoE + Heal Absorb"  -- TODO: translate
 L["AOE+躲圈"] = "AoE + Dodge Rings"  -- TODO: translate
 L["AOE+音符刷新"] = "AoE + Notes"  -- TODO: translate
@@ -1533,4 +1574,3 @@ L["倒数4"] = "Four"
 L["倒数3"] = "Three"
 L["倒数2"] = "Two"
 L["倒数1"] = "One"
-

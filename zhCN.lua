@@ -4,6 +4,50 @@ local L = ExBoss and ExBoss.NewLocale and ExBoss:NewLocale("zhCN", true)
 if not L then
     return
 end
+-- added 2026-06-07 00:13
+L["状态图标"] = true
+L["迈萨拉洞窟 3号 - 沃达扎护盾"] = true
+L["进入编辑模式后可直接调整额外护盾条位置。"] = true
+L["将你的配置/语音打包成插件"] = true
+L["如果你觉得插件不错，可以小额赞助"] = true
+L["中文"] = true
+L["英文"] = true
+L["复制或选中下面联系方式即可。"] = true
+L["复制或选中下面链接即可。"] = true
+L["如果你想参与本地化或是反馈，可以在："] = true
+L["语音包列表"] = true
+L["首页依赖 ExwindTools.UI 与 ExwindGrid，当前未就绪。请确认 ExwindCore 已正确加载后重开面板。"] = true
+L["通用图标容器，由其他模块通过 API 推入显示条目。可选发光，并支持多个图标向左/右/上/下增长。"] = true
+L["显示文本"] = true
+L["文字设置"] = true
+L["发光样式"] = true
+L["被点名时输出到图标提示"] = true
+
+L["饰品监控"] = true
+L["预览"] = true
+L["第一个图标"] = true
+L["第二个图标"] = true
+L["第三个图标"] = true
+L["第四个图标"] = true
+L["第五个图标"] = true
+L["第六个图标"] = true
+L["第七个图标"] = true
+L["第八个图标"] = true
+L["第九个图标"] = true
+L["第十个图标"] = true
+L["CD结束时"] = true
+L["触发时发光"] = true
+L["层数文字设置"] = true
+L["发光设置"] = true
+-- added 2026-06-07
+L["饰品顺序"] = true
+L["向右"] = true
+L["向左"] = true
+L["正常"] = true
+L["灰色"] = true
+L["累加样本"] = true
+L["层数样本"] = true
+
 
 -- added 2026-05-30
 -- added 2026-06-01 02:19
